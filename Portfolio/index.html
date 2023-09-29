@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="home">
+            <div class="left"><span>U</span>MAR &nbsp;<span>K</span>HAN</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contactus">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="linksbar"><ul>
+                <li><a href="https://www.instagram.com/__.umarrr.__/" target="_blank"><img src="images/instagram.png" alt="instagram" id="inst"></a></li>
+                <li><a href="https://github.com/UMARKHANNN17" target="_blank"><img src="images/github.png" alt="github" id="git"></a></li>
+                <li><a href="https://www.linkedin.com/in/umarkhannn17/" target="_blank"><img src="images/linkedin.png" alt="linkedin" id="linked"></a></li>
+                <li><a href="https://umarkhannn17@gmail.com" target="_blank"><img src="images/email.png" alt="email" id="mail"></a></li>
+            </div>
+            <div class="leftsection">
+                <span>Hi, I am </span><span id="name">Umar</span>
+                <div>and I am a enthusiastic</div>
+                <div>Web Developer</div>
+                <button>Download Resume</button>
+            </div>
+            <div class="rightsection">
+                <img src="images/rp.png" alt="picture" class="rpp"></img>
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="about">
+            <div class="aboutsection"><span>ABOUT</span>&nbsp<span id="me">ME</span></div>
+            <div class="aboutme">Computer Engineer</div>
+            <div class="aboutpara">
+                <p id="para1">I am Umar Khan. I am Computer Engineer Student. </p>
+                <p id="para2">I am aspiring to become an exceptional web developer. </p>
+                <p id="para3">I have knowledge of HTML5 , CSS3 , JavaScript</p>
+                <p id="para4">I am working on some projects as well as gaining more knowledge about web development. </p>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection" id="projects">
+            <h1 id="prohead"><span>PRO</span>JECTS</h1>
+            <div class="projecx">
+                <div class="pro" id="pro1">
+                    Portfolio Website
+                </div>
+                <div class="pro" id="pro2">
+                    Temperature Converter
+                </div>
+                <div class="pro" id="pro3">
+                    Netfix Clone
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="forthsection" id="services">
+            <h1>SER<span>VICES</span></h1>
+            <div class="servicesection">
+                <b class="service">WEB</b><b class="service">DEVELOPMENT</b>
+                <p>I can create creative websites using HTML,CSS,JavaScript.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="fifthsection" id="contactus">
+            <h1><span>CONTACT&nbsp;</span>US</h1>
+            <form>
+                <fieldset>
+                    <label for="n1">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" size="30" id="n1" style="margin-left: 19px;"><br>
+                    <label for="e1">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="email" size="30" id="e1" style="margin-left: 19px;"><br>
+                    <label for="s1">Subject&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" size="30" id="s1" style="margin-left: 20px;"><br>
+                    <label for="m1">Message&nbsp;:</label>
+                    <textarea id="m1" rows="6" cols="40">Type your message here.</textarea><br>
+                    <button onclick="myFunction()">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="foot"><span>U</span>MAR <span>K</span>HAN</div>
+        <div id="f1">WEB DEVELOPER</div>
+    </footer>
+    <script>
+        function myFunction() {
+          alert("Submitted!");
+        }
+        </script>
+</body>
+
+</html>

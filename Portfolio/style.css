@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(1, 1, 25);
+    color: white ;
+    overflow-x: hidden;
+}
+
+.left span{
+    color: rgb(0, 238, 255);
+}
+
+.leftsection #name{
+    color: rgb(0, 238, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgb(1, 1, 30);
+    height: 50px;
+    width:100vw;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    list-style: none; 
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 238, 255);
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.left{
+    display: flex;
+    font-size: 1.5rem;
+    align-items:flex-start;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 80px 0;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.rightsection{
+    width: 30%;
+}
+
+.rpp{
+    height: 400px;
+    margin-top: 40px;
+}
+
+.leftsection{
+    width: 30%;
+    font-size: 35px;
+}
+
+main hr{
+    border: 0;
+    background: rgb(0, 238, 255);
+    height: 1px;
+    margin: 0px 85px;
+}
+
+.leftsection button{
+    background-color: rgb(0, 238, 255);
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 5px;
+    border-color: rgb(2, 2, 119);
+}
+
+.leftsection button:hover{
+    background-color: blue;
+    color: rgb(0, 238, 255);
+}
+
+.linksbar{
+    display:inline-block;
+    position: fixed;
+    left: 1px;
+    background-color: rgb(0, 238, 255);
+    border-radius: 2%;
+}
+
+.linksbar ul{
+    list-style: none;
+}
+
+
+
+.linksbar ul img{
+    background-color: rgb(0, 238, 255);
+    width: 40px;
+}
+
+#inst{
+    width: 28px;
+    margin: 5px 7px;
+}
+
+#linked{
+    width: 28px;
+    margin: 5px 7px;
+}
+
+#mail{
+    width: 28px;
+    margin: 5px 7px;
+}
+
+#git{
+    margin: 0px 0px;
+}
+
+.secondsection{
+    width: 100vw;
+    height: 460px;
+    background-color: rgb(1, 1, 30);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+ .aboutsection{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -173px;
+}
+
+.aboutme{
+    font-size: 45px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -340px;
+    color: rgb(90, 168, 174);
+}
+
+.aboutpara p{
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.aboutpara{
+    margin-top: -300px;
+    width: 100vw;
+}
+
+/* #para1{
+    margin-top: -343px;
+} */
+
+#me{
+    color: rgb(0, 238, 255);
+    /* margin-top: -317px;
+    margin-left: 264px; */
+}
+
+.thirdsection{
+    width: 100vw;
+    height: 550px;
+    background-color: rgb(2, 2, 33);
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.thirdsection h1{
+    font-size: 70px;
+}
+
+.thirdsection span{
+    color: rgb(0, 238, 255);
+}
+
+.forthsection{
+    width: 100vw;
+    height: 550px;
+    background-color: rgb(3, 3, 35);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.forthsection h1{
+    font-size: 70px;
+    margin-left: 157px;
+}
+
+.forthsection span{
+    color: rgb(0, 238, 255);
+}
+
+.servicesection{
+    box-sizing: border-box;
+    width: 60%;
+    height: 30%;
+    box-shadow: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 142px 1px;
+    margin-left: 139px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+
+.servicesection:hover{
+    box-shadow: 0px 0px 25px 0px;
+}
+
+.service{
+    position: relative;
+    margin: 0px 36px;
+    font-size: 40px;
+}
+
+.servicesection p{
+    font-size: 15px;
+    margin: 5px 40px;
+}
+
+.fifthsection{
+    width: 100vw;
+    height: 650px;
+    background-color: rgb(4, 4, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifthsection span{
+    color: rgb(0, 238, 255);
+}
+
+.fifthsection h1{
+    font-size: 70px;
+    margin-left: 157px;
+}
+
+.fifthsection form{
+    height: 241px;
+    width: 236px;
+}
+
+.fifthsection fieldset{
+    justify-content: center;
+    height: 232px;
+    width: 353px;
+}
+
+.fifthsection fieldset #n1 #e1 #s1{
+    margin-left: 40px;
+}
+
+footer{
+    margin: 10px 85px;
+}
+
+.foot{
+    font-size: 1.5rem;
+}
+
+footer span{
+    color: rgb(0, 238, 255);
+}
+
+#f1{
+    color: blue;
+}
+
+.projecx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: -100px;
+}
+
+.pro{
+    box-shadow: 0px 0px 15px 0px;
+    width: 15vw;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#prohead{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 140px; */
+}
+
+.pro:hover{
+    box-shadow: 0px 0px 25px 0px;
+}
